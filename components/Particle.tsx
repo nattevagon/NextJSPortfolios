@@ -61,7 +61,7 @@ const Particle = () => {
             },
             links: {
               color: "#ffffff",
-              distance: 120,
+              distance: 200,
               enable: true,
               opacity: 0.5,
               width: 1,
@@ -73,7 +73,7 @@ const Particle = () => {
                 default: "bounce",
               },
               random: false,
-              speed: 4,
+              speed: 3,
               straight: false,
             },
             number: {
@@ -87,7 +87,7 @@ const Particle = () => {
               value: 0.5,
             },
             shape: {
-              type: "circle",
+              type: "triangle",
             },
             size: {
               value: { min: 2, max: 5 },

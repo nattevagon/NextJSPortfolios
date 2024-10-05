@@ -11,10 +11,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        primary: ["Montserrat"]
+        primary: ["Prata"]
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
 }
 
