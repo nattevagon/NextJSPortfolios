@@ -12,7 +12,7 @@ const MobileNavbar = ({ nav, closeNav }: Props) => {
 
   return (
     <div
-      className={`fixed ${navAnimation} transform transition-all duration-300 top-0 left-0 right-0 bottom-0 z-[100000] bg-[#09101a]`}
+      className={`fixed ${navAnimation} transform transition-all duration-300 top-0 left-0 right-0 bottom-0 z-[100000] backdrop-blur-lg`}
     >
       <div className="w-[100vw] h-[100vh] flex flex-col items-center justify-center">
         <Link href="/#landing" className="nav-link-mobile" onClick={closeNav}>landing</Link>
