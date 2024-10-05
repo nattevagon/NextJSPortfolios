@@ -5,7 +5,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="bg-[#121212] pb-[8rem] md:pt-[8rem]" id="contact">
+    <div className="bg-[#121212] pb-[8rem] pt-[8rem]" id="contact">
       <div className="w-4/5 mx-auto items-center">
         <p className="heading">
           contact
