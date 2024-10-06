@@ -6,7 +6,7 @@ import { PersonalPhoto } from "@/assets/images"
 
 const Landing = () => {
   return (
-    <div className="bg-[#121212] pb-[2rem] md:pb-[8rem] pt-[8rem]" id="landing">
+    <div className="bg-[#121212] h-[90vh] pb-[2rem] md:pb-[8rem] pt-[10vh] mt-[2rem] bg-cover bg-center" id="landing">
       <Particle />
       <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[2rem] h-[100%] items-center">
         <div>
