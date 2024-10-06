@@ -45,7 +45,7 @@ const About = () => {
                 </div>
                 <div>Jan 2021 - Present</div>
                 <div>React JS & ASP. Net</div>
-                <ul className="mt-2">
+                <ul className="mt-2 list-disc pl-4">
                   <li>Mentoring to interns who as Front End Developers.</li>
                   <li>Developing Microservices Web for Account (login & register user) and Payment Center (make payment for the order) that were migrated using the React JS library from ASP.Net.</li>
                   <li>Developing a Web Microservice Transaction List from all clients (Retail, Food, Virtual, Travel, Tiket) for Klik Indomaret Web using React JS.</li>
@@ -75,7 +75,7 @@ const About = () => {
                 </div>
                 <div>Aug 2023 - Present</div>
                 <div>React JS & Next JS</div>
-                <ul className="mt-2">
+                <ul className="mt-2 list-disc pl-4">
                   <li>
                     Developing my own Portfolio Web using Next JS & Tailwind.
                   </li>
