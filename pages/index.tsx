@@ -1,3 +1,5 @@
+'use client'
+
 import { useRouter } from "next/router";
 import About from "@/components/About";
 import Works from "@/components/Works";
