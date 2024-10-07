@@ -1,3 +1,5 @@
+'use client'
+
 import { GithubLogo, IGLogo, LinkedinLogo } from "@/assets/images";
 import Image from "next/image";
 import Link from "next/link";
