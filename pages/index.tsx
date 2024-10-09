@@ -19,8 +19,6 @@ const Home = () => {
 
   //Animation AOS Setup
   useEffect(() => {
-    removeFbclidQueryString();
-
     AOS.init();
 
     // You can also pass an optional settings object
@@ -45,23 +43,7 @@ const Home = () => {
       // Jika hash kosong, scroll ke bagian atas halaman
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
-  }, [router]);
-
-  const removeFbclidQueryString = () => {
-    const query = { ...router.query };  // Get a copy of the current query parameters
-
-    if (query.fbclid) {
-      delete query.fbclid;  // Remove the fbclid parameter
-      router.replace(
-        {
-          pathname: router.pathname,
-          query: query
-        },
-        undefined,
-        { shallow: true }
-      );
-    }
-  };
+  }, []);
 
   return (
     <div className="overflow-x-hidden">
