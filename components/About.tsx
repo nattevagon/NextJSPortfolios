@@ -47,9 +47,9 @@ const About = () => {
                 <div>React JS & ASP. Net</div>
                 <ul className="mt-2 list-disc pl-4">
                   <li>Mentoring to interns who as Front End Developers.</li>
-                  <li>Developing Microservices Web for Account (login & register user) and Payment Center (make payment for the order) that were migrated using the React JS library from ASP.Net.</li>
-                  <li>Developing a Web Microservice Transaction List from all clients (Retail, Food, Virtual, Travel, Tiket) for Klik Indomaret Web using React JS.</li>
-                  <li>Developing Microservices Web for Bank Coupon (select or enter a coupon code), Rating Reviews (give an assessment), and Phone Number OTP Verification for Klik Indomaret Web using React JS.</li>
+                  <li>Developing Micro Web for Account (login & register user) and Payment Center (make payment for the order) that were migrated using the React JS library from ASP.Net.</li>
+                  <li>Developing a Micro Web for Transaction List from all clients (Retail, Food, Virtual, Travel, Ticket) for Klik Indomaret Web using React JS.</li>
+                  <li>Developing Micro Web for Bank Coupon (select or enter a coupon code), Rating Reviews (give an assessment), and Phone Number OTP Verification for Klik Indomaret Web using React JS.</li>
                   <li>Developing Shopping Voucher Sales & Indomaret Franchise Portal Web using React JS.</li>
                   <li>Developing Food Klik Indomaret Web using React JS migrated from ASP.Net.</li>
                   <li>Implementation of Tracker for Klik Indomaret Web using React JS and ASP.Net.</li>
