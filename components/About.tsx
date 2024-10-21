@@ -4,14 +4,14 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="bg-[#121212] pb-[2rem] md:pb-[8rem] pt-[8rem]" id="about">
+    <div className="h-[100%] pb-[2rem] md:pb-[8rem] pt-[8rem]" id="about">
       <div className="w-4/5 mx-auto items-center">
         <p className="heading">
           about me
         </p>
         <div className="mt-8">
           <h2 className="text-xl font-bold text-white mb-2">Education</h2>
-          <div className="text-white grid grid-cols-1 md:grid-cols-2 gap-[1rem] md:gap-[2rem] rounded backdrop-blur-sm border border-solid border-gray-600 p-4" data-aos="fade-left" data-aos-delay="400">
+          <div className="text-white grid grid-cols-1 md:grid-cols-2 gap-[1rem] md:gap-[2rem] rounded backdrop-blur-sm border border-solid border-gray-600 p-4">
             <div>
               Aug 2017 - Jul 2021
             </div>
@@ -28,7 +28,7 @@ const About = () => {
         </div>
         <div className="mt-4">
           <h2 className="text-xl font-bold text-white mb-2">Experiences</h2>
-          <div className="text-white grid grid-cols-1 md:grid-cols-2 gap-[1rem] md:gap-[2rem] rounded backdrop-blur-sm border border-solid border-gray-600 p-4 mb-4" data-aos="fade-left" data-aos-delay="400">
+          <div className="text-white grid grid-cols-1 md:grid-cols-2 gap-[1rem] md:gap-[2rem] rounded backdrop-blur-sm border border-solid border-gray-600 p-4 mb-4">
             <div>
               <div>
                 <div className="font-bold text-lg">
@@ -58,7 +58,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="text-white grid grid-cols-1 md:grid-cols-2 gap-[1rem] md:gap-[2rem] rounded backdrop-blur-sm border border-solid border-gray-600 p-4 mb-4" data-aos="fade-left" data-aos-delay="400">
+          <div className="text-white grid grid-cols-1 md:grid-cols-2 gap-[1rem] md:gap-[2rem] rounded backdrop-blur-sm border border-solid border-gray-600 p-4 mb-4">
             <div>
               <div>
                 <div className="font-bold text-lg">
@@ -86,7 +86,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="text-white grid grid-cols-1 md:grid-cols-2 gap-[1rem] md:gap-[2rem] rounded backdrop-blur-sm border border-solid border-gray-600 p-4" data-aos="fade-left" data-aos-delay="400">
+          <div className="text-white grid grid-cols-1 md:grid-cols-2 gap-[1rem] md:gap-[2rem] rounded backdrop-blur-sm border border-solid border-gray-600 p-4">
             <div>
               <div>
                 <div className="font-bold text-lg">

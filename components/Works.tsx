@@ -8,13 +8,13 @@ import React from "react";
 
 const Works = () => {
   return (
-    <div className="bg-[#121212] pb-[2rem] md:pb-[8rem] pt-[8rem]" id="works">
+    <div className="h-[100%] pb-[2rem] md:pb-[8rem] pt-[8rem]" id="works">
       <div className="w-4/5 mx-auto items-center">
         <p className="heading">
           works
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[1rem] md:gap-[2rem] mt-8">
-          <div className="text-white rounded backdrop-blur-sm border border-solid border-gray-600 p-4 relative" data-aos="fade-left" data-aos-delay="400">
+          <div className="text-white rounded backdrop-blur-sm border border-solid border-gray-600 p-4 relative">
             <div className="text-lg">Mountana</div>
             <p className="text-sm">My own e-commerce web for hiking mountain</p>
             <div className="my-4 flex flex-row gap-2 flex-wrap">
@@ -32,7 +32,7 @@ const Works = () => {
               />
             </Link>
           </div>
-          <div className="text-white rounded backdrop-blur-sm border border-solid border-gray-600 p-4 relative" data-aos="fade-left" data-aos-delay="400">
+          <div className="text-white rounded backdrop-blur-sm border border-solid border-gray-600 p-4 relative">
             <div className="text-lg">SMA Muhammadiyah 4 Yogyakarta School Profile</div>
             <p className="text-sm">A school profile for SMA Muhammadiyah 4 Yogyakarta</p>
             <div className="my-4 flex flex-row gap-2 flex-wrap">
@@ -49,7 +49,7 @@ const Works = () => {
               />
             </Link>
           </div>
-          <div className="text-white rounded backdrop-blur-sm border border-solid border-gray-600 p-4 relative" data-aos="fade-left" data-aos-delay="400">
+          <div className="text-white rounded backdrop-blur-sm border border-solid border-gray-600 p-4 relative">
             <div className="text-lg">My Own Profile</div>
             <p className="text-sm">My own profile web for portfolios</p>
             <div className="my-4 flex flex-row gap-2 flex-wrap">
@@ -66,7 +66,7 @@ const Works = () => {
               />
             </Link>
           </div>
-          <div className="text-white rounded backdrop-blur-sm border border-solid border-gray-600 p-4 relative" data-aos="fade-left" data-aos-delay="400">
+          <div className="text-white rounded backdrop-blur-sm border border-solid border-gray-600 p-4 relative">
             <div className="text-lg">Payment Center E-commerce Micro Service</div>
             <p className="text-sm">A micro service for Payment Center in e-commerce retail web</p>
             <div className="my-4 flex flex-row gap-2 flex-wrap">
@@ -83,7 +83,7 @@ const Works = () => {
               />
             </Link>
           </div>
-          <div className="text-white rounded backdrop-blur-sm border border-solid border-gray-600 p-4 relative" data-aos="fade-left" data-aos-delay="400">
+          <div className="text-white rounded backdrop-blur-sm border border-solid border-gray-600 p-4 relative">
             <div className="text-lg">Account E-commerce Micro Service</div>
             <p className="text-sm">A micro service for account activities in e-commerce retail web</p>
             <div className="my-4 flex flex-row gap-2 flex-wrap">
@@ -100,7 +100,7 @@ const Works = () => {
               />
             </Link>
           </div>
-          <div className="text-white rounded backdrop-blur-sm border border-solid border-gray-600 p-4 relative" data-aos="fade-left" data-aos-delay="400">
+          <div className="text-white rounded backdrop-blur-sm border border-solid border-gray-600 p-4 relative">
             <div className="text-lg">Rating Review E-commerce Micro Service</div>
             <p className="text-sm">A micro service for rating review & complaint order in e-commerce retail web</p>
             <div className="my-4 flex flex-row gap-2 flex-wrap">
@@ -117,7 +117,7 @@ const Works = () => {
               />
             </Link>
           </div>
-          <div className="text-white rounded backdrop-blur-sm border border-solid border-gray-600 p-4 relative" data-aos="fade-left" data-aos-delay="400">
+          <div className="text-white rounded backdrop-blur-sm border border-solid border-gray-600 p-4 relative">
             <div className="text-lg">Transaction List E-commerce Micro Service</div>
             <p className="text-sm">A micro service for list transaction order in e-commerce retail web</p>
             <div className="my-4 flex flex-row gap-2 flex-wrap">
@@ -134,7 +134,7 @@ const Works = () => {
               />
             </Link>
           </div>
-          <div className="text-white rounded backdrop-blur-sm border border-solid border-gray-600 p-4 relative" data-aos="fade-left" data-aos-delay="400">
+          <div className="text-white rounded backdrop-blur-sm border border-solid border-gray-600 p-4 relative">
             <div className="text-lg">Portal Waralaba</div>
             <p className="text-sm">A company profile for E-commerce</p>
             <div className="my-4 flex flex-row gap-2 flex-wrap">

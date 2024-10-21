@@ -19,25 +19,20 @@ const Home = () => {
 
   //Animation AOS Setup
   useEffect(() => {
-    AOS.init();
-
-    // You can also pass an optional settings object
-    // below listed default settings
-    AOS.init({
-      easing: 'ease-out-cubic',
-      once: true,
-      offset: 50,
-      delay: 50,
-    });
-
     const urlPath = router.asPath
 
     if (urlPath) {
       const hash = urlPath.split("/")[1];
 
-      if(hash) {
-        scrollToElement(hash, 300);
-        console.log("url => ", hash)
+      if (hash) {
+        const element = document.getElementById(hash);
+        element?.scrollIntoView({
+          behavior: 'smooth'
+        });
+
+        setTimeout(() => {
+          scrollToElement(hash, 300);
+        }, 100)
       }
     } else {
       // Jika hash kosong, scroll ke bagian atas halaman
@@ -50,11 +45,11 @@ const Home = () => {
       <div>
         <MobileNavbar nav={nav} closeNav={closeNav} />
         <Navbar openNav={openNav} />
-        <div className="relative z-[30]">
+        <div className="relative z-[30] bg-gradient-to-t from-gray-900 to-zinc-800">
           <Landing />
           <About />
           <Works />
-          <Contact/>
+          <Contact />
         </div>
       </div>
     </div>
