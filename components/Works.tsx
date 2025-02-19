@@ -14,12 +14,30 @@ const Works = () => {
           works
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[1rem] md:gap-[2rem] mt-8">
+        <div className="text-white rounded backdrop-blur-sm border border-solid border-gray-600 p-4 relative">
+            <div className="text-lg">Indonesian League Fantasy Sports Portal</div>
+            <p className="text-sm">Fantasy Sports Portal for Indonesian League</p>
+            <div className="my-4 flex flex-row gap-2 flex-wrap">
+              <div className="text-xs p-2 rounded-xl border border-solid border-gray-600 w-fit">Next JS</div>
+              <div className="text-xs p-2 rounded-xl border border-solid border-gray-600 w-fit">Tailwind CSS</div>
+              <div className="text-xs p-2 rounded-xl border border-solid border-gray-600 w-fit">Daisy UI</div>
+            </div>
+            <Link
+              className="absolute top-4 right-4"
+              href="https://indonesianleague.netlify.app/"
+            >
+              <ArrowUpRightIcon
+                width={28}
+                height={28}
+              />
+            </Link>
+          </div>
           <div className="text-white rounded backdrop-blur-sm border border-solid border-gray-600 p-4 relative">
             <div className="text-lg">Mountana</div>
             <p className="text-sm">My own e-commerce web for hiking mountain</p>
             <div className="my-4 flex flex-row gap-2 flex-wrap">
               <div className="text-xs p-2 rounded-xl border border-solid border-gray-600 w-fit">React JS</div>
-              <div className="text-xs p-2 rounded-xl border border-solid border-gray-600 w-fit">Tailwind JS</div>
+              <div className="text-xs p-2 rounded-xl border border-solid border-gray-600 w-fit">Tailwind CSS</div>
               <div className="text-xs p-2 rounded-xl border border-solid border-gray-600 w-fit">Material Tailwind</div>
             </div>
             <Link
@@ -54,7 +72,7 @@ const Works = () => {
             <p className="text-sm">My own profile web for portfolios</p>
             <div className="my-4 flex flex-row gap-2 flex-wrap">
               <div className="text-xs p-2 rounded-xl border border-solid border-gray-600 w-fit">Next JS</div>
-              <div className="text-xs p-2 rounded-xl border border-solid border-gray-600 w-fit">Tailwind JS</div>
+              <div className="text-xs p-2 rounded-xl border border-solid border-gray-600 w-fit">Tailwind CSS</div>
             </div>
             <Link
               className="absolute top-4 right-4"
@@ -73,7 +91,7 @@ const Works = () => {
               <div className="text-xs p-2 rounded-xl border border-solid border-gray-600 w-fit">React JS</div>
               <div className="text-xs p-2 rounded-xl border border-solid border-gray-600 w-fit">React Bootstraps</div>
             </div>
-            <Link
+            {/* <Link
               className="absolute top-4 right-4"
               href="https://paymentcenter2.netlify.app/"
             >
@@ -81,7 +99,7 @@ const Works = () => {
                 width={28}
                 height={28}
               />
-            </Link>
+            </Link> */}
           </div>
           <div className="text-white rounded backdrop-blur-sm border border-solid border-gray-600 p-4 relative">
             <div className="text-lg">Account E-commerce Micro Service</div>
