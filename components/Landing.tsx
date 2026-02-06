@@ -9,7 +9,7 @@ import { motion } from "framer-motion"
 
 const Landing = () => {
   return (
-    <div className="h-[100%] pt-[14vh] bg-cover bg-center" id="landing">
+    <div className="min-h-screen pt-[14vh] lg:pt-[20vh] bg-cover bg-center" id="landing">
       <Particle />
       <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[2rem] h-[100%] items-center">
         <div>
@@ -17,8 +17,12 @@ const Landing = () => {
             Hi, Im <span className="text-yellow-400">Natte Vagon!</span>
           </h1>
           <TextEffect />
-          <p className="mt-[1.5rem] text-[18px] text-[#ffffff] text-justify">
-            I am a Front End Web Developer working in a retail e-commerce company, where I have learned a lot about website development. While there, I gained valuable experience by participating in various projects using React JS and ASP.Net. In the future, I am looking opportunities for new experience and challenge that can enhance my knowledge in the position of Front-End Web Developer, especially in React JS or Next JS.
+          <p className="mt-[1.5rem] text-[14px] md:text-[18px] text-[#ffffff] text-justify">
+            I am a front-end web development and currently, I work in the IT E-commerce field at a retail company as a Front-End Web Developer. In this role, I have been involved in various website development projects using React JS, Next JS, ASP.NET, and WordPress, allowing me to sharpen my technical skills and gain real-world project experience.
+            <br /><br />
+            I am trenthusiastic about building modern, scalable, and user-friendly web applications, especially projects that utilize React JS, Next JS, and WordPress.
+            <br /><br />
+            Always eager to learn new technologies, improve best practices, and take on new challenges that can further enhance my growth as a Front-End Web Developer.
           </p>
         </div>
         <motion.div

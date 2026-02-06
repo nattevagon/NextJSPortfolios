@@ -4,7 +4,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="h-[100%] pb-[2rem] md:pb-[8rem] pt-[8rem]" id="about">
+    <div className="min-h-screen pb-[2rem] md:pb-[8rem] pt-[8rem]" id="about">
       <div className="w-4/5 mx-auto items-center">
         <p className="heading">
           about me
@@ -46,14 +46,22 @@ const About = () => {
                 <div>Jan 2021 - Present</div>
                 <div>React JS & ASP. Net</div>
                 <ul className="mt-2 list-disc pl-4">
-                  <li>Mentoring to interns who as Front End Developers.</li>
-                  <li>Developing Micro Web for Account (login & register user) and Payment Center (make payment for the order) that were migrated using the React JS library from ASP.Net.</li>
-                  <li>Developing a Micro Web for Transaction List from all clients (Retail, Food, Virtual, Travel, Ticket) for Klik Indomaret Web using React JS.</li>
-                  <li>Developing Micro Web for Bank Coupon (select or enter a coupon code), Rating Reviews (give an assessment), and Phone Number OTP Verification for Klik Indomaret Web using React JS.</li>
                   <li>Developing Shopping Voucher Sales & Indomaret Franchise Portal Web using React JS.</li>
+                  <li>Developing an Indomaret Franchise Portal Web using React JS.</li>
+                  <li>Developing Micro Web for Bank Coupon (select or enter a coupon code), Rating Reviews (give an assessment), and Phone Number OTP Verification for Klik Indomaret Web using React JS.</li>
+                  <li>Developed micro web applications for Account Management (Login & Registration) and Payment Center, migrated from ASP.NET to React.js to improve maintainability and user experience.</li>
+                  <li>Developing a Micro Web for Transaction List from all clients (Retail, Food, Virtual, Travel, Ticket) for Klik Indomaret Web using React JS.</li>
                   <li>Developing Food Klik Indomaret Web using React JS migrated from ASP.Net.</li>
                   <li>Implementation of Tracker for Klik Indomaret Web using React JS and ASP.Net.</li>
-                  <li>Fixed bugs in projects on the Klik Indomaret Web that use React JS and ASP.Net.</li>
+                  <li>Mentoring to interns who as Front End Developers.</li>
+                  <li>Built a Transaction List micro web for multiple business lines (Retail, Food, Virtual, Travel, and Ticket) on Klik Indomaret Web using React.js.</li>
+                  <li>Implemented and integrated tracking systems across Klik Indomaret Web applications using React.js and ASP.NET.</li>
+                  <li>Fixed and optimized bugs across multiple projects built with React.js, Next.js, Vite.js, and ASP.NET.</li>
+                  <li>Migrated several existing web applications to Next.js to enhance performance and scalability.</li>
+                  <li>Developed multiple web applications using Next.js for various business needs.</li>
+                  <li>Created and maintained company profile websites using WordPress.</li>
+                  <li>Added and enhanced Ecommerce Front Office features using Next.js.</li>
+                  <li>Added and enhanced Ecommerce Back Office features using Vite.js.</li>
                 </ul>
               </div>
             </div>
@@ -81,6 +89,12 @@ const About = () => {
                   </li>
                   <li>
                     Developing a School Profile Web from “SMA Muhammadiyah 4 Yogyakarta” using React JS.
+                  </li>
+                  <li>
+                    Developing some fantasy web using Wordpress.
+                  </li>
+                  <li>
+                    Developing some fantasy web using Next JS.
                   </li>
                 </ul>
               </div>
